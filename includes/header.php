@@ -30,6 +30,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="index.php" class="logo">
+                <span class="logo-icon"><i class="fas fa-code"></i></span>
                 <span class="logo-text">Parichiti <span class="highlight">Studios</span></span>
             </a>
             <div class="menu-toggle" id="mobile-menu">

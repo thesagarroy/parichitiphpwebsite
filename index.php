@@ -119,6 +119,97 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- ===== PRICING SECTION ===== -->
+<section class="section-padding pricing-section">
+    <div class="container">
+        <div class="text-center fade-in-up" style="margin-bottom: 3rem;">
+            <h2 class="section-title">Our Pricing Plans</h2>
+            <p class="section-subtitle">Affordable, transparent pricing with no hidden fees. Pick the plan that fits your business.</p>
+            <!-- Trust badges -->
+            <div class="pricing-badges">
+                <span><i class="fas fa-shield-alt"></i> 100% Money-Back Guarantee</span>
+                <span><i class="fas fa-rocket"></i> Fast Delivery</span>
+                <span><i class="fas fa-users"></i> 50+ Happy Clients</span>
+            </div>
+        </div>
+
+        <div class="pricing-grid fade-in-up">
+
+            <!-- Plan 1: Essential -->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="plan-name">Essential</h3>
+                    <p class="plan-original">₹1,999</p>
+                    <p class="plan-price">₹999<span>/project</span></p>
+                    <p class="plan-save">SAVE ₹1,000</p>
+                </div>
+                <p class="plan-desc">Perfect for startups &amp; personal brands</p>
+                <ul class="plan-features">
+                    <li class="included"><i class="fas fa-check-circle"></i> 1-Page Responsive Website</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Mobile Responsive Design</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> WhatsApp Button</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Custom Domain Setup</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Basic SEO</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> 1 Free Revision</li>
+                    <li class="excluded"><i class="fas fa-times-circle"></i> Multi-page</li>
+                    <li class="excluded"><i class="fas fa-times-circle"></i> Blog / Shop</li>
+                </ul>
+                <a href="https://wa.me/917001044700?text=Hi%2C%20I%20am%20interested%20in%20the%20Essential%20Plan%20(%E2%82%B9999)" target="_blank" class="plan-btn">Select Essential →</a>
+            </div>
+
+            <!-- Plan 2: Professional (Featured) -->
+            <div class="pricing-card pricing-featured">
+                <div class="popular-badge">⭐ Most Popular</div>
+                <div class="pricing-header">
+                    <h3 class="plan-name">Professional</h3>
+                    <p class="plan-original">₹6,999</p>
+                    <p class="plan-price">₹2,999<span>/project</span></p>
+                    <p class="plan-save">SAVE ₹4,000</p>
+                </div>
+                <p class="plan-desc">For businesses serious about online growth</p>
+                <ul class="plan-features">
+                    <li class="included"><i class="fas fa-check-circle"></i> 5–10 Page Premium Site</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Mobile Responsive Design</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> WhatsApp Button</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Custom Domain & SSL</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Advanced SEO + Analytics</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Contact Form (PHP)</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Portfolio / Gallery</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> 2 Free Revisions</li>
+                </ul>
+                <a href="https://wa.me/917001044700?text=Hi%2C%20I%20am%20interested%20in%20the%20Professional%20Plan%20(%E2%82%B92999)" target="_blank" class="plan-btn plan-btn-featured">Select Professional →</a>
+            </div>
+
+            <!-- Plan 3: Premium -->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="plan-name">Premium</h3>
+                    <p class="plan-original">₹14,999</p>
+                    <p class="plan-price">₹6,999<span>/project</span></p>
+                    <p class="plan-save">SAVE ₹8,000</p>
+                </div>
+                <p class="plan-desc">Unlimited pages – blogs, shops, e-commerce</p>
+                <ul class="plan-features">
+                    <li class="included"><i class="fas fa-check-circle"></i> Unlimited Pages</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Mobile Responsive Design</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> WhatsApp Button</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Custom Domain & SSL</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Full SEO + Speed Audit</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> E-commerce / Blog</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> Logo Design Included</li>
+                    <li class="included"><i class="fas fa-check-circle"></i> 3 Free Revisions</li>
+                </ul>
+                <a href="https://wa.me/917001044700?text=Hi%2C%20I%20am%20interested%20in%20the%20Premium%20Plan%20(%E2%82%B96999)" target="_blank" class="plan-btn">Select Premium →</a>
+            </div>
+
+        </div>
+        <p class="text-center fade-in-up" style="color: var(--text-muted); margin-top: 2rem; font-size: 0.95rem;">
+            <i class="fas fa-info-circle" style="color: var(--primary-color);"></i>
+            Need something custom? <a href="contact.php" style="font-weight:600;">Contact us</a> for a tailored quote.
+        </p>
+    </div>
+</section>
+
 <!-- Call to action -->
 <section class="section-padding bg-gradient">
     <div class="container text-center fade-in-up">
