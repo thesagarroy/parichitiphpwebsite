@@ -11,8 +11,8 @@ include 'includes/header.php';
             <h1>Custom Built Websites by <span class="gradient-text">Expert Developers</span></h1>
             <p>We write clean, optimized code to build stunning digital experiences from scratch. Maximize your online potential with a true technical partner.</p>
             <div class="hero-btns">
-                <a href="contact.php" class="btn btn-primary">Get Started</a>
-                <a href="services.php" class="btn btn-secondary">Our Services</a>
+                <a href="/pricing" class="btn btn-primary">Get Started</a>
+                <a href="/services" class="btn btn-secondary">Our Services</a>
             </div>
         </div>
         <div class="hero-image fade-in-up delay-1">
@@ -205,7 +205,7 @@ include 'includes/header.php';
         </div>
         <p class="text-center fade-in-up" style="color: var(--text-muted); margin-top: 2rem; font-size: 0.95rem;">
             <i class="fas fa-info-circle" style="color: var(--primary-color);"></i>
-            Need something custom? <a href="contact.php" style="font-weight:600;">Contact us</a> for a tailored quote.
+            Need something custom? <a href="/contact" style="font-weight:600;">Contact us</a> for a tailored quote.
         </p>
     </div>
 </section>
@@ -215,7 +215,7 @@ include 'includes/header.php';
     <div class="container text-center fade-in-up">
         <h2 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Ready to Grow Your Business?</h2>
         <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px;">Let's collaborate to bring your digital vision to life. Get in touch with us today for a free consultation.</p>
-        <a href="contact.php" class="btn btn-secondary" style="padding: 15px 40px; font-size: 1.1rem;">Contact Us Now</a>
+        <a href="/contact" class="btn btn-secondary" style="padding: 15px 40px; font-size: 1.1rem;">Contact Us Now</a>
     </div>
 </section>
 

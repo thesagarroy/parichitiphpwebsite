@@ -66,7 +66,7 @@ include 'includes/header.php';
     <div class="container text-center fade-in-up">
         <h2 class="section-title">Need a Custom Solution?</h2>
         <p class="section-subtitle">We understand that every business is unique. Let's discuss your specific requirements.</p>
-        <a href="contact.php" class="btn btn-primary">Request a Quote</a>
+        <a href="/contact" class="btn btn-primary">Request a Quote</a>
     </div>
 </section>
 

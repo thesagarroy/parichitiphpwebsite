@@ -96,7 +96,7 @@ include 'includes/header.php';
 
         <p class="text-center fade-in-up" style="margin-top: 2.5rem; color: var(--text-muted);">
             <i class="fas fa-info-circle" style="color: var(--primary-color);"></i>
-            Need something custom? <a href="contact.php" style="font-weight:600;">Contact us</a> for a tailored quote.
+            Need something custom? <a href="/contact" style="font-weight:600;">Contact us</a> for a tailored quote.
         </p>
     </div>
 </section>

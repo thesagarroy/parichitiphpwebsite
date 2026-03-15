@@ -5,7 +5,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-col brand-col">
-                <a href="index.php" class="logo">
+                <a href="/" class="logo">
                     <span class="logo-text">Parichiti <span class="highlight">Studios</span></span>
                 </a>
                 <p>Creative Digital Solutions tailored for your business growth and online presence.</p>
@@ -19,21 +19,21 @@
             <div class="footer-col">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="pricing.php">Pricing</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
             
             <div class="footer-col">
                 <h3>Our Services</h3>
                 <ul>
-                    <li><a href="services.php">Website Development</a></li>
-                    <li><a href="services.php">Digital Marketing</a></li>
-                    <li><a href="services.php">SEO Optimization</a></li>
-                    <li><a href="services.php">Social Media Marketing</a></li>
+                    <li><a href="/services">Website Development</a></li>
+                    <li><a href="/services">Digital Marketing</a></li>
+                    <li><a href="/services">SEO Optimization</a></li>
+                    <li><a href="/services">Social Media Marketing</a></li>
                 </ul>
             </div>
             

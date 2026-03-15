@@ -29,7 +29,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="index.php" class="logo">
+            <a href="/" class="logo">
                 <span class="logo-icon"><i class="fas fa-code"></i></span>
                 <span class="logo-text">Parichiti <span class="highlight">Studios</span></span>
             </a>
@@ -39,12 +39,12 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.php" class="<?php echo ($currentPage == 'home') ? 'active' : ''; ?>">Home</a></li>
-                <li><a href="services.php" class="<?php echo ($currentPage == 'services') ? 'active' : ''; ?>">Services</a></li>
-                <li><a href="about.php" class="<?php echo ($currentPage == 'about') ? 'active' : ''; ?>">About Us</a></li>
-                <li><a href="pricing.php" class="<?php echo ($currentPage == 'pricing') ? 'active' : ''; ?>">Pricing</a></li>
-                <li><a href="contact.php" class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">Contact</a></li>
-                <li><a href="pricing.php" class="btn btn-primary nav-btn">Get Started</a></li>
+                <li><a href="/" class="<?php echo ($currentPage == 'home') ? 'active' : ''; ?>">Home</a></li>
+                <li><a href="/services" class="<?php echo ($currentPage == 'services') ? 'active' : ''; ?>">Services</a></li>
+                <li><a href="/about" class="<?php echo ($currentPage == 'about') ? 'active' : ''; ?>">About Us</a></li>
+                <li><a href="/pricing" class="<?php echo ($currentPage == 'pricing') ? 'active' : ''; ?>">Pricing</a></li>
+                <li><a href="/contact" class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">Contact</a></li>
+                <li><a href="/pricing" class="btn btn-primary nav-btn">Get Started</a></li>
             </ul>
         </div>
     </nav>
