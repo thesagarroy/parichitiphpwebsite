@@ -42,8 +42,9 @@
                 <li><a href="index.php" class="<?php echo ($currentPage == 'home') ? 'active' : ''; ?>">Home</a></li>
                 <li><a href="services.php" class="<?php echo ($currentPage == 'services') ? 'active' : ''; ?>">Services</a></li>
                 <li><a href="about.php" class="<?php echo ($currentPage == 'about') ? 'active' : ''; ?>">About Us</a></li>
+                <li><a href="pricing.php" class="<?php echo ($currentPage == 'pricing') ? 'active' : ''; ?>">Pricing</a></li>
                 <li><a href="contact.php" class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">Contact</a></li>
-                <li><a href="contact.php" class="btn btn-primary nav-btn">Get Started</a></li>
+                <li><a href="pricing.php" class="btn btn-primary nav-btn">Get Started</a></li>
             </ul>
         </div>
     </nav>

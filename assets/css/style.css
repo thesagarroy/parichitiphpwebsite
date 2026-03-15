@@ -2,26 +2,27 @@
    Parichiti Studios - Custom CSS
    ========================================================================= */
 
-/* Variables */
+/* Variables — Dark Mode by default */
 :root {
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --secondary-color: #ec4899;
-    --text-main: #1f2937;
-    --text-muted: #6b7280;
-    --bg-light: #f9fafb;
-    --bg-white: #ffffff;
-    --bg-dark: #111827;
-    --accent: #10b981;
+    --primary-color: #818cf8;
+    --primary-dark: #6366f1;
+    --secondary-color: #f472b6;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --bg-light: #1e2433;
+    --bg-white: #151b27;
+    --bg-dark: #0d1117;
+    --accent: #34d399;
+    --border-color: #2d3748;
     
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     
     --transition: all 0.3s ease;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 40px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 /* Reset & Base */
@@ -211,14 +212,14 @@ img {
 
 /* Navbar */
 .navbar {
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    background-color: rgba(13, 17, 23, 0.97);
+    backdrop-filter: blur(12px);
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.06);
     transition: var(--transition);
 }
 
@@ -1217,5 +1218,197 @@ textarea.form-control {
     }
     .contact-container {
         gap: 2rem;
+    }
+}
+
+/* =============================================
+   DARK MODE COMPONENT OVERRIDES
+   ============================================= */
+
+/* Body background */
+body {
+    background-color: var(--bg-dark);
+}
+
+/* Navbar links in dark mode */
+.nav-menu li a:not(.btn) {
+    color: #cbd5e1;
+}
+
+.nav-menu li a:not(.btn):hover,
+.nav-menu li a.active {
+    color: var(--primary-color);
+}
+
+/* Mobile nav dark background */
+@media (max-width: 768px) {
+    .nav-menu {
+        background-color: #0d1117;
+        border-left: 1px solid rgba(255,255,255,0.06);
+    }
+    .nav-menu li {
+        border-bottom-color: rgba(255,255,255,0.06);
+    }
+}
+
+/* Hero section dark */
+.hero {
+    background-color: var(--bg-dark);
+    background: radial-gradient(circle at top right, rgba(129, 140, 248, 0.12), transparent 60%),
+                radial-gradient(circle at bottom left, rgba(244, 114, 182, 0.08), transparent 60%),
+                var(--bg-dark);
+}
+
+/* Service cards dark */
+.service-card {
+    background: #1a2133;
+    border: 1px solid #2d3748;
+}
+
+/* Contact form dark */
+.contact-form {
+    background: #1a2133;
+    border: 1px solid #2d3748;
+}
+
+.form-control {
+    background-color: #0d1117;
+    border-color: #2d3748;
+    color: var(--text-main);
+}
+
+.form-control:focus {
+    background-color: #151b27;
+    border-color: var(--primary-color);
+}
+
+.form-control::placeholder {
+    color: #64748b;
+}
+
+/* Pricing cards dark */
+.pricing-card {
+    background: #1a2133;
+    border-color: #2d3748;
+}
+
+.pricing-featured {
+    background: #1e2a45;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 40px rgba(129, 140, 248, 0.25);
+}
+
+.pricing-header {
+    border-bottom-color: #2d3748;
+}
+
+.plan-features li {
+    border-bottom-color: #2d3748;
+    color: #cbd5e1;
+}
+
+.plan-features .excluded {
+    color: #475569;
+}
+
+/* About image border */
+.about-image::after {
+    border-color: var(--primary-color);
+    opacity: 0.5;
+}
+
+/* Btn secondary in dark */
+.btn-secondary {
+    background: #1a2133;
+    color: var(--primary-color);
+    border: 1px solid #2d3748;
+}
+
+.btn-secondary:hover {
+    background: #232d42;
+}
+
+/* Section backgrounds */
+.bg-white {
+    background-color: var(--bg-white) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-light) !important;
+}
+
+.bg-dark-subtle {
+    background-color: #151b27;
+}
+
+/* Pricing section bg */
+.pricing-section {
+    background: linear-gradient(180deg, #0d1117 0%, #151b27 100%);
+}
+
+/* Pricing badges dark */
+.pricing-badges span {
+    background: #1a2133;
+    border-color: #2d3748;
+    color: #94a3b8;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #080d14;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Footer already uses dark bg, just ensure border */
+.footer {
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Page header stays dark */
+.page-header {
+    background: linear-gradient(135deg, #0d1117 0%, #1a2133 100%);
+}
+
+/* =============================================
+   FAQ SECTION
+   ============================================= */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.faq-item {
+    background: #1a2133;
+    border: 1px solid #2d3748;
+    border-radius: 16px;
+    padding: 1.75rem 2rem;
+    transition: var(--transition);
+}
+
+.faq-item:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(129, 140, 248, 0.1);
+}
+
+.faq-item h4 {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-main);
+}
+
+.faq-item p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
     }
 }

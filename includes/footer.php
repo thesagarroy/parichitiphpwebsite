@@ -22,6 +22,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="services.php">Services</a></li>
+                    <li><a href="pricing.php">Pricing</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
@@ -40,7 +41,7 @@
                 <h3>Contact Info</h3>
                 <ul class="contact-info">
                     <li><i class="fas fa-phone-alt"></i> <a href="tel:7001044700">7001044700</a></li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:hello@parichitistudios.com">hello@parichitistudios.com</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:hello@parichitistudios.com">hello@Parichiti.com</a></li>
                     <li><i class="fas fa-map-marker-alt"></i> India</li>
                 </ul>
             </div>
