@@ -13,6 +13,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-contact">
+                <a href="mailto:hello@parichitistudios.com"><i class="fas fa-envelope"></i> hello@parichitistudios.com</a>
+                <a href="tel:7001044700"><i class="fas fa-phone-alt"></i> +91 7001044700</a>
+            </div>
+            <div class="top-bar-action">
+                <a href="https://wa.me/917001044700" target="_blank" class="whatsapp-header-btn"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
